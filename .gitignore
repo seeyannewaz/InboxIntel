@@ -1,0 +1,54 @@
+# ---------------------------
+# Python cache / build
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+venv/
+venv312/
+.venv/
+.env*/    
+
+# ---------------------------
+# Environment / secrets
+# ---------------------------
+# real env var file (keep secrets out of git)
+.env
+*.env.local
+
+# OpenAI / Gmail / OAuth credentials
+credentials.json
+token.json
+token.pickle
+
+# ---------------------------
+# Local databases / state
+# ---------------------------
+smart_email_agent.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ---------------------------
+# Streamlit / app state
+# ---------------------------
+.streamlit/
+.cache/
+
+# ---------------------------
+# OS / editor cruft
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional – keep if only local)
+.vscode/
