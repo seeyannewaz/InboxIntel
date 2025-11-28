@@ -1,3 +1,9 @@
 # requirements.txt
-dataclasses; python_version>"3.7"
-streamlist
+dataclasses; python_version<="3.12"
+streamlit  
+Streamlit  
+OpenAI GPT-5.1 API  
+PostgreSQL (local or cloud) 
+psycopg2-binary
+Gmail API (Google OAuth2) 
+dotenv for environment variables
